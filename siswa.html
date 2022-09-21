@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Data Siswa Baru</title>
+<link rel="stylesheet" href="sws.css">
+</head>
+<body>
+
+    <div class="navkanan">
+        <div class="logo">
+            <p>Paissss<span>zz</span> </p>
+        </div>
+        <br>
+        <br>
+        <div class="sisw">
+            <p><a href="tampildatasiswa.php"> Data Siswa</a></p>
+        </div>
+        <br>
+        <br>
+        <div class="bara">
+            <p><a href="tampildatabarang.php">Data Barang</a></p>
+        </div>
+    </div>
+
+    <div class="tadat">
+        <h1>Membuat Akun Baru </h1>
+    </div>
+    <br>
+    <br>
+    <form action="simpan.php" method="post">
+            <p><Label>Id siswa :<input required="required" type="number" name="id_siswa"></Label></p>
+          
+            <p><Label>nama siswa:<input required="required" type="text" name="nama_siswa"></Label></p>
+        
+            <p><Label>kelas:<input required="required" type="text" name="kelas"></Label></p>
+           
+            <p><Label>jurusan : <input required="required" type="text" name="jurusan"></Label></p>
+            <br>
+            <div class="y">
+                <div class="sim">
+                   <a href="simpan.php"><input type="submit" name="simpan" value="Simpan Data"></a>
+                </div>
+                <div class="br">
+                    <button><a href="tampildatasiswa.php">Back</a></button>
+                </div>  
+            </div>
+    </form>
+</body>
+</html>

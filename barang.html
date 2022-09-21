@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="br.css">
+</head>
+<body>
+    <div class="navbarang">
+        <div class="spin">
+            <p>Paissss<span>zz</span> </p>
+        </div>
+        <br>
+        <br>
+        <div class="dasi">
+            <p><a href="tampildatasiswa.php"> Data Siswa</a></p>
+        </div>
+        <br>
+        <br>
+        <div class="daba">
+            <p><a href="tampildatabarang.php">Data Barang</a></p>
+        </div>
+    </div>
+    
+    <div class="taba">
+        <h1>Tambah Data Peminjaman Barang </h1>
+    </div>
+    <br>
+    <br>
+    <form action="simpan_barang.php" method="post">
+            <p><Label>Id barang :<input required="required" type="number" name="id_barang"></Label></p>
+            <br>
+            <p><Label>nama barang :<input required="required" type="text" name="nama_barang"></Label></p>
+            <br>
+            <p><Label>jenis barang :<input required="required" type="text" name="jenis_barang"></Label></p>
+            <br>
+            <p><Label>jumlah barang : <input required="required" type="text" name="jumlah_barang"></Label></p>
+            <br>
+            <br>
+            <div class="g">
+                <div class="sm">
+                   <a href="simpan_barang.php"><input type="submit" name="simpan" value="Simpan Data"></a>
+                </div>
+                <div class="t">
+                    <button><a href="tampildatabarang.php">Back</a></button>
+                </div>  
+            </div>
+    </form>
+</body>
+</html>
